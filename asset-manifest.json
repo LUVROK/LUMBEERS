@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/LUMBEERS/static/css/main.9250f1f7.css",
+    "main.js": "/LUMBEERS/static/js/main.1af2eea5.js",
+    "static/js/787.aae34595.chunk.js": "/LUMBEERS/static/js/787.aae34595.chunk.js",
+    "static/media/aditya-vyas-PzhmEp_aDU4-unsplash.jpg": "/LUMBEERS/static/media/aditya-vyas-PzhmEp_aDU4-unsplash.5c7d28a1cfbef5ef942f.jpg",
+    "static/media/LumberWrapper.png": "/LUMBEERS/static/media/LumberWrapper.0f7dfdea5cd6da4f25c5.png",
+    "static/media/icekingdomfrozencyrillic_bold.ttf": "/LUMBEERS/static/media/icekingdomfrozencyrillic_bold.4d5b9ac96ec1a117a0ff.ttf",
+    "index.html": "/LUMBEERS/index.html",
+    "main.9250f1f7.css.map": "/LUMBEERS/static/css/main.9250f1f7.css.map",
+    "main.1af2eea5.js.map": "/LUMBEERS/static/js/main.1af2eea5.js.map",
+    "787.aae34595.chunk.js.map": "/LUMBEERS/static/js/787.aae34595.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9250f1f7.css",
+    "static/js/main.1af2eea5.js"
+  ]
+}
