@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LUMBEERS/static/css/main.cfabe9e2.css",
+    "main.css": "/LUMBEERS/static/css/main.aeb2ef45.css",
     "main.js": "/LUMBEERS/static/js/main.b5ee6713.js",
     "static/js/787.aae34595.chunk.js": "/LUMBEERS/static/js/787.aae34595.chunk.js",
     "static/media/aditya-vyas-PzhmEp_aDU4-unsplash.jpg": "/LUMBEERS/static/media/aditya-vyas-PzhmEp_aDU4-unsplash.5c7d28a1cfbef5ef942f.jpg",
@@ -11,12 +11,12 @@
     "static/media/RobotoSlab_Regular.ttf": "/LUMBEERS/static/media/RobotoSlab_Regular.7ce86de3a11228c75d5e.ttf",
     "static/media/RobotoSlab_Thin.ttf": "/LUMBEERS/static/media/RobotoSlab_Thin.ac12d323dca67204ba2e.ttf",
     "index.html": "/LUMBEERS/index.html",
-    "main.cfabe9e2.css.map": "/LUMBEERS/static/css/main.cfabe9e2.css.map",
+    "main.aeb2ef45.css.map": "/LUMBEERS/static/css/main.aeb2ef45.css.map",
     "main.b5ee6713.js.map": "/LUMBEERS/static/js/main.b5ee6713.js.map",
     "787.aae34595.chunk.js.map": "/LUMBEERS/static/js/787.aae34595.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfabe9e2.css",
+    "static/css/main.aeb2ef45.css",
     "static/js/main.b5ee6713.js"
   ]
 }
