@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LUMBEERS/static/css/main.72f958ea.css",
-    "main.js": "/LUMBEERS/static/js/main.057bd7c2.js",
+    "main.css": "/LUMBEERS/static/css/main.6dc1f3dc.css",
+    "main.js": "/LUMBEERS/static/js/main.20755907.js",
     "static/js/787.aae34595.chunk.js": "/LUMBEERS/static/js/787.aae34595.chunk.js",
     "static/media/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg": "/LUMBEERS/static/media/sebastian-unrau-sp-p7uuT0tw-unsplash.56489033fa0f7e67c70c.jpg",
     "static/media/aditya-vyas-PzhmEp_aDU4-unsplash.jpg": "/LUMBEERS/static/media/aditya-vyas-PzhmEp_aDU4-unsplash.5c7d28a1cfbef5ef942f.jpg",
@@ -11,15 +11,15 @@
     "static/media/RobotoSlab_Light.ttf": "/LUMBEERS/static/media/RobotoSlab_Light.6d68e46320e3d0f97a14.ttf",
     "static/media/RobotoSlab_Regular.ttf": "/LUMBEERS/static/media/RobotoSlab_Regular.7ce86de3a11228c75d5e.ttf",
     "static/media/RobotoSlab_Thin.ttf": "/LUMBEERS/static/media/RobotoSlab_Thin.ac12d323dca67204ba2e.ttf",
-    "static/media/transparentdorset.png": "/LUMBEERS/static/media/transparentdorset.0305a7b3649938c25c89.png",
     "static/media/logoPreolder.png": "/LUMBEERS/static/media/logoPreolder.05bc09d84d997821448a.png",
+    "static/media/transparentdorset.png": "/LUMBEERS/static/media/transparentdorset.ced8ab5ad42c102c5a18.png",
     "index.html": "/LUMBEERS/index.html",
-    "main.72f958ea.css.map": "/LUMBEERS/static/css/main.72f958ea.css.map",
-    "main.057bd7c2.js.map": "/LUMBEERS/static/js/main.057bd7c2.js.map",
+    "main.6dc1f3dc.css.map": "/LUMBEERS/static/css/main.6dc1f3dc.css.map",
+    "main.20755907.js.map": "/LUMBEERS/static/js/main.20755907.js.map",
     "787.aae34595.chunk.js.map": "/LUMBEERS/static/js/787.aae34595.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72f958ea.css",
-    "static/js/main.057bd7c2.js"
+    "static/css/main.6dc1f3dc.css",
+    "static/js/main.20755907.js"
   ]
 }
