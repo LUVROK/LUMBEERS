@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/LUMBEERS/static/css/main.d3acc10b.css",
-    "main.js": "/LUMBEERS/static/js/main.39f85fe2.js",
+    "main.css": "/LUMBEERS/static/css/main.07e0b104.css",
+    "main.js": "/LUMBEERS/static/js/main.f2da691f.js",
     "static/js/787.aae34595.chunk.js": "/LUMBEERS/static/js/787.aae34595.chunk.js",
     "static/media/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg": "/LUMBEERS/static/media/sebastian-unrau-sp-p7uuT0tw-unsplash.56489033fa0f7e67c70c.jpg",
     "static/media/aditya-vyas-PzhmEp_aDU4-unsplash.jpg": "/LUMBEERS/static/media/aditya-vyas-PzhmEp_aDU4-unsplash.5c7d28a1cfbef5ef942f.jpg",
-    "static/media/LumberWrapper.png": "/LUMBEERS/static/media/LumberWrapper.30814b545dcf0181631e.png",
+    "static/media/LumberWrapper.png": "/LUMBEERS/static/media/LumberWrapper.0b1e43b6806f60575d99.png",
+    "static/media/galarysecback.jpg": "/LUMBEERS/static/media/galarysecback.052e49030b31f23b93a2.jpg",
     "static/media/icekingdomfrozencyrillic_bold.ttf": "/LUMBEERS/static/media/icekingdomfrozencyrillic_bold.4d5b9ac96ec1a117a0ff.ttf",
     "static/media/RobotoSlab_Bold.ttf": "/LUMBEERS/static/media/RobotoSlab_Bold.b4a6cff80bc429d3416d.ttf",
     "static/media/RobotoSlab_Light.ttf": "/LUMBEERS/static/media/RobotoSlab_Light.6d68e46320e3d0f97a14.ttf",
@@ -14,12 +15,12 @@
     "static/media/logoPreolder.png": "/LUMBEERS/static/media/logoPreolder.05bc09d84d997821448a.png",
     "static/media/transparentdorset.png": "/LUMBEERS/static/media/transparentdorset.ced8ab5ad42c102c5a18.png",
     "index.html": "/LUMBEERS/index.html",
-    "main.d3acc10b.css.map": "/LUMBEERS/static/css/main.d3acc10b.css.map",
-    "main.39f85fe2.js.map": "/LUMBEERS/static/js/main.39f85fe2.js.map",
+    "main.07e0b104.css.map": "/LUMBEERS/static/css/main.07e0b104.css.map",
+    "main.f2da691f.js.map": "/LUMBEERS/static/js/main.f2da691f.js.map",
     "787.aae34595.chunk.js.map": "/LUMBEERS/static/js/787.aae34595.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3acc10b.css",
-    "static/js/main.39f85fe2.js"
+    "static/css/main.07e0b104.css",
+    "static/js/main.f2da691f.js"
   ]
 }
