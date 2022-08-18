@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import "./preloader.css";
+import imageLogoPreolder from '../../images/logoPreolder.png'
 
 const Preloader = () => {
     useEffect(() => {
@@ -10,8 +11,9 @@ const Preloader = () => {
 
     return (
         <div className="preloader">
-            <div className="logo" id="preloader">
-                LUMBEERS
+            <div className="logoPreolder" id="preloader">
+                {/* LUMBEERS */}
+                <img src={imageLogoPreolder} alt className="imageLogoPreolder" />
             </div>
         </div>
     )

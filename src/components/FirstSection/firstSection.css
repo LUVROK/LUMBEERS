@@ -5,10 +5,13 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    overflow-x: hidden;
+    overflow: hidden;
+    position: relative;
 }
 .background {
     position: absolute;
-    background: url('../../images/aditya-vyas-PzhmEp_aDU4-unsplash.jpg');
+    background-image: url('../../images/aditya-vyas-PzhmEp_aDU4-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(3px);
@@ -27,6 +30,7 @@
     width: 100%;
     object-fit: cover;
     filter: blur(3px);
+    overflow: hidden;
 }
 .logoWrapper {
     /* color: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
@@ -42,48 +46,64 @@
     background-image: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(220,254,253,1) 35%, rgba(0,212,255,1) 100%);
 }
 .logoWrappertext{
-    position: relative;
+    position: fixed;
     font-size: 142px;
     width: 100%;
     height: 20%;
     font-family: 'icekingdomfrozencyrillic';
-    mix-blend-mode: soft-light;
-    /* color: #ffffffde; */
+    /* color: #83ecff; */
+    /* mix-blend-mode: soft-light; */
+    /* padding-top: 28px; */
+    /* -webkit-mix-blend-mode: multiply;
+    -moz-mix-blend-mode: multiply;
+    -o-mix-blend-mode: multiply;
+    -ms-mix-blend-mode: multiply; */
+
+    color: #ffffff;
     /* filter:brightness(2); */
         /* color: #000; */
     z-index: 100;
-    background-color: #ffffff93;
-    backdrop-filter: blur(3px);
+    /* background: #ffffff; */
+    /* backdrop-filter: blur(3px); */
     display: flex;
     justify-content: center;
+    transition: 0s;
     /* box-shadow:  20px 20px 60px #bebebe34,
     -20px -20px 60px #ffffff34; */
 }
 .gradientMixBlind {
-    position: relative;
+    position: fixed;
     height: 100%;
     width: 100%;
+    z-index: 100;
 }
 .LumberWrapper {
-    position: absolute;
+    height: 100%;
+    position: relative;
+    left: -46px;
+}
+.LumberWrapperCont {
+    position: fixed;
     bottom: 0;
     width: auto;
-    height: 80%;
+    height: 85%;
     z-index: 101;
     object-fit: cover;
+    transition: 0s;
     /* transform: scale(1, -1); */
 }
 .linkSocial {
-    position: absolute;
+    position: fixed;
     bottom: 10px;
     right: 5%;
     z-index: 102;
+    /* opacity: 1; */
 }
 .linkSocial a:first-of-type {
     margin-right: 20px;
 }
 .MintNow {
-    position: absolute;
+    position: fixed;
     bottom: 20px;
     z-index: 103;
     padding: 12px;
@@ -92,6 +112,7 @@
     color: #FFFFFF;
     font-size: 54px;
     cursor: pointer;
+    transition: 0s;
 }
 
 @font-face {
@@ -101,4 +122,49 @@
 
     /* other formats include: 'woff2', 'truetype, 'opentype',
                               'embedded-opentype', and 'svg' */
-  }
+}
+
+@media screen and (max-width: 1510px) {
+    
+    .logoWrappertext{
+        /* font-size: 111px; */
+    }
+}
+@media screen and (max-width: 1034px) {
+    
+    .logoWrappertext{
+        /* font-size: 101px; */
+    }
+}
+@media screen and (max-width: 734px) {
+    
+    .logoWrappertext{
+        font-size: 111px;
+    }
+    .linkSocial {
+        /* position: absolute; */
+        top: 15%;
+        bottom: auto;
+        right: 5%;
+        z-index: 102;
+        margin-top: 30px;
+    }
+    .LumberWrapper {
+        height: auto;
+        width: 70%;
+        bottom: 0%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .LumberWrapper {
+        height: auto;
+        width: 65%;
+        bottom: 0%;
+    }
+    .logoWrappertext{
+        font-size: 72px;
+    }
+    .logoWrappertext{
+        padding-top: 28px;
+    }
+}

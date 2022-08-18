@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: #a7cbd5;
+    background: #696969;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,12 +11,38 @@
     z-index: 99999;
     color: white;
 }
-.logo{
+.logoPreolder{
     position: relative;
     transition: 0.8s;
+    opacity: 1;
+    animation: mymove 1.5s infinite;
     opacity: 1;
 }
 .logo_center{
     width: 300px;
     height: 300px;
+
+}
+.imageLogoPreolder {
+    height: 164px;
+    width: 164px;
+    /* animation: animationLogo 2s infinite linear; */
+    /* transition: opacity 2s linear; */
+    /* opacity: 0.3 animationLogo; */
+    animation: animationLogo 3s linear infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes animationLogo {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes mymove {
+    50% {opacity: 0.3;}
+}
+
+/* Стандартный синтаксис */
+@keyframes mymove {
+    50% {opacity: 0.3;}
 }
