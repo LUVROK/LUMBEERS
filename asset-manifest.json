@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LUMBEERS/static/css/main.f60488ba.css",
-    "main.js": "/LUMBEERS/static/js/main.87034dd6.js",
+    "main.css": "/LUMBEERS/static/css/main.01e50951.css",
+    "main.js": "/LUMBEERS/static/js/main.68e86464.js",
     "static/js/787.aae34595.chunk.js": "/LUMBEERS/static/js/787.aae34595.chunk.js",
     "static/media/backgroundWrapper.png": "/LUMBEERS/static/media/backgroundWrapper.36b9366c81058e706dab.png",
     "static/media/icekingdomfrozencyrillic_bold.ttf": "/LUMBEERS/static/media/icekingdomfrozencyrillic_bold.4d5b9ac96ec1a117a0ff.ttf",
@@ -17,12 +17,12 @@
     "static/media/galarysecback2.jpg": "/LUMBEERS/static/media/galarysecback2.4a2eeca08576ed6db4da.jpg",
     "static/media/logoPreolder.png": "/LUMBEERS/static/media/logoPreolder.e0d54a6f9f51edb407f5.png",
     "index.html": "/LUMBEERS/index.html",
-    "main.f60488ba.css.map": "/LUMBEERS/static/css/main.f60488ba.css.map",
-    "main.87034dd6.js.map": "/LUMBEERS/static/js/main.87034dd6.js.map",
+    "main.01e50951.css.map": "/LUMBEERS/static/css/main.01e50951.css.map",
+    "main.68e86464.js.map": "/LUMBEERS/static/js/main.68e86464.js.map",
     "787.aae34595.chunk.js.map": "/LUMBEERS/static/js/787.aae34595.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f60488ba.css",
-    "static/js/main.87034dd6.js"
+    "static/css/main.01e50951.css",
+    "static/js/main.68e86464.js"
   ]
 }
