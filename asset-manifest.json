@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/LUMBEERS/static/css/main.1e98283e.css",
-    "main.js": "/LUMBEERS/static/js/main.0feabf5c.js",
+    "main.css": "/LUMBEERS/static/css/main.d0a250c6.css",
+    "main.js": "/LUMBEERS/static/js/main.cf551c3e.js",
     "static/js/787.aae34595.chunk.js": "/LUMBEERS/static/js/787.aae34595.chunk.js",
-    "static/media/backgroundWrapper.png": "/LUMBEERS/static/media/backgroundWrapper.36b9366c81058e706dab.png",
+    "static/media/backgroundWrapper.png": "/LUMBEERS/static/media/backgroundWrapper.69c3d1e0a086ab1c2229.png",
     "static/media/icekingdomfrozencyrillic_bold.ttf": "/LUMBEERS/static/media/icekingdomfrozencyrillic_bold.4d5b9ac96ec1a117a0ff.ttf",
-    "static/media/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg": "/LUMBEERS/static/media/sebastian-unrau-sp-p7uuT0tw-unsplash.0af13fccbb67c9cb470f.jpg",
-    "static/media/LumberWrapper.png": "/LUMBEERS/static/media/LumberWrapper.e6215a60fa48ddb96011.png",
+    "static/media/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg": "/LUMBEERS/static/media/sebastian-unrau-sp-p7uuT0tw-unsplash.c3e60ae2d94feb0c0530.jpg",
+    "static/media/LumberWrapper.png": "/LUMBEERS/static/media/LumberWrapper.086e8d8c88a19a4bcb4e.png",
     "static/media/RobotoSlab_Bold.ttf": "/LUMBEERS/static/media/RobotoSlab_Bold.b4a6cff80bc429d3416d.ttf",
     "static/media/RobotoSlab_Light.ttf": "/LUMBEERS/static/media/RobotoSlab_Light.6d68e46320e3d0f97a14.ttf",
     "static/media/RobotoSlab_Regular.ttf": "/LUMBEERS/static/media/RobotoSlab_Regular.7ce86de3a11228c75d5e.ttf",
     "static/media/RobotoSlab_Thin.ttf": "/LUMBEERS/static/media/RobotoSlab_Thin.ac12d323dca67204ba2e.ttf",
-    "static/media/transparentdorset.png": "/LUMBEERS/static/media/transparentdorset.d5ae42b8900a746aa5c3.png",
-    "static/media/galarysecback.jpg": "/LUMBEERS/static/media/galarysecback.8a34ea88c9c247aecfb4.jpg",
-    "static/media/secBg.jpg": "/LUMBEERS/static/media/secBg.817fe217a6251a0db93d.jpg",
-    "static/media/galarysecback2.jpg": "/LUMBEERS/static/media/galarysecback2.4a2eeca08576ed6db4da.jpg",
-    "static/media/logoPreolder.png": "/LUMBEERS/static/media/logoPreolder.e0d54a6f9f51edb407f5.png",
+    "static/media/galarysecback.jpg": "/LUMBEERS/static/media/galarysecback.bc1ac842bcaae7c62a5e.jpg",
+    "static/media/galarysecback2.jpg": "/LUMBEERS/static/media/galarysecback2.f4b799373c42ad3ba445.jpg",
+    "static/media/secBg.jpg": "/LUMBEERS/static/media/secBg.647ba4e00ef9389cc2aa.jpg",
+    "static/media/transparentdorset.png": "/LUMBEERS/static/media/transparentdorset.c19ada70c22f4b7d4d11.png",
+    "static/media/logoPreolder.png": "/LUMBEERS/static/media/logoPreolder.eb12cd4cc0582b63b92b.png",
     "index.html": "/LUMBEERS/index.html",
-    "main.1e98283e.css.map": "/LUMBEERS/static/css/main.1e98283e.css.map",
-    "main.0feabf5c.js.map": "/LUMBEERS/static/js/main.0feabf5c.js.map",
+    "main.d0a250c6.css.map": "/LUMBEERS/static/css/main.d0a250c6.css.map",
+    "main.cf551c3e.js.map": "/LUMBEERS/static/js/main.cf551c3e.js.map",
     "787.aae34595.chunk.js.map": "/LUMBEERS/static/js/787.aae34595.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e98283e.css",
-    "static/js/main.0feabf5c.js"
+    "static/css/main.d0a250c6.css",
+    "static/js/main.cf551c3e.js"
   ]
 }
