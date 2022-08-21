@@ -57,22 +57,22 @@
     display: flex;
     justify-content: center;
 }
-.Andrey{
-    background: url('https://i.postimg.cc/d7WfCdcD/7.jpg') no-repeat center;
+.ALPAN{
+    background: url('https://lumbeers.com/images/render26.jpg') no-repeat center;
     width: 299px;
     height: 299px;
     background-size: contain;
     border-radius: 20px;
 }
-.Nikita{
-    background: url('https://i.postimg.cc/rzDBShmT/8.jpg') no-repeat center;
+.ROLL{
+    background: url('https://lumbeers.com/images/render31.jpg') no-repeat center;
     width: 299px;
     height: 299px;
     background-size: contain;
     border-radius: 20px;
 }
-.Eugene{
-    background: url('https://i.postimg.cc/18Qb1sKR/9.jpg') no-repeat center;
+.Jimmy{
+    background: url('https://lumbeers.com/images/render41.jpg') no-repeat center;
     width: 299px;
     height: 299px;
     background-size: contain;
@@ -113,21 +113,6 @@
     transition: 0.4s;
 }
 .secrow{
-}
-
-.Anton{
-    background: url('https://i.postimg.cc/g0jkkrdN/photo-2022-03-06-00-22-01-2.jpg') no-repeat center;
-    width: 299px;
-    height: 299px;
-    background-size: contain;
-    border-radius: 20px;
-}
-.RTZ{
-    background: url('https://i.postimg.cc/Hstpwbk6/photo-2022-03-04-23-49-20.jpg') no-repeat center;
-    width: 299px;
-    height: 299px;
-    background-size: contain;
-    border-radius: 20px;
 }
 .team__wrap{
     margin: 0 auto;

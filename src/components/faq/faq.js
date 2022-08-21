@@ -7,35 +7,30 @@ const FaqComponents = () => {
         title: "",
         rows: [
             {
-                title: "When mint?",
-                content: "Mid-March."
+                title: "Wen Mint / Price / Supply",
+                content: "TBD / Degen / TBD"
             },
             {
-                title: "Price?",
-                content: "Free. Well, not exactly free, because we spent a lot of time on developing the art.\n" +
-                    "The exact price will be announced soon."
+                title: "Who are the Lumbeers?",
+                content: "Lumbeers are lucky mf's, trying their fortune in the casino and getting money raining on them every time. Some will say rigged, well... It's their casino after all."
             },
             {
-                title: "Secondary?",
-                content: "We will be listed exclusively on Magic Eden."
+                title: "Casino",
+                content: "Casino will have a lot of games, a lot of lucky lumbeers and a lot of solana degens. Furthermore, Lumbeers will get 80% of the revenue made by the casino."
             },
             {
-                title: "What is an airdrop?",
-                content: "Airdrop is a distribution of tokens/NFT's to holders of our project.\n" +
-                    "There will be 5000 mythical trees, which means that you should have 2 Lumbeers to receive a tree."
+                title: "More Utility?",
+                content: "Staking for native token, Airdrops for Holders, Raffles for NFTs and whitelists, Exclusive DAO for alpha Lumbeers only.\n" +
+                    "Remember that this is only the beginning of the #roadmap, once this part will be completed, we will roll out our next banger."
             },
             {
-                title: "Why do i need a tree?",
-                content: "Trees will be used with 2 Lumbeers to breed a Baby Mongo"
+                title: "OG / WL meaning?",
+                content: "1️⃣@og will have guaranteed mint, the amount of allowed mints will be disclosed soon.\n"  +
+                "2️⃣@whitelisted will have a mint opportunity, but it will be FCFS"
             },
             {
-                title: "What's weekly raffle?",
-                content: "A raffle is a lottery-based distribution of secondary market royalties between holders."
-            },
-            {
-                title: "What's DAO?",
-                content: "DAO is a decision-maker. \n" +
-                    "Your ideas and suggestions will be subject to voting, and then will be implemented by our team or outsourced people"
+                title: "Where Mint / Wen wallet collection",
+                content: "LMNFT/TBA"
             }
 
     ]};

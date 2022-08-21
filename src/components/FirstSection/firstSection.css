@@ -11,10 +11,10 @@
 }
 .background {
     position: absolute;
-    background-image: url('../../images/aditya-vyas-PzhmEp_aDU4-unsplash.jpg');
+    background-image: url('../../images/backgroundWrapper.png');
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(3px);
+    filter: blur(6px);
     z-index: 1;
     height: 100vh;
     width: 100%;
@@ -47,9 +47,9 @@
 }
 .logoWrappertext{
     position: fixed;
-    font-size: 142px;
+    font-size: 172px;
     width: 100%;
-    height: 20%;
+    /* height: 20%; */
     font-family: 'icekingdomfrozencyrillic';
     /* color: #83ecff; */
     /* mix-blend-mode: soft-light; */
@@ -60,6 +60,12 @@
     -ms-mix-blend-mode: multiply; */
 
     color: #ffffff;
+
+    /* font-size: 72px; */
+    background: -webkit-linear-gradient(#FFF, #FFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 0.75rem #2d24a0);
     /* filter:brightness(2); */
         /* color: #000; */
     z-index: 100;
@@ -68,6 +74,7 @@
     display: flex;
     justify-content: center;
     transition: 0s;
+    margin-top: 20px;
     /* box-shadow:  20px 20px 60px #bebebe34,
     -20px -20px 60px #ffffff34; */
 }
@@ -143,20 +150,24 @@
     }
     .linkSocial {
         /* position: absolute; */
-        top: 15%;
-        bottom: auto;
-        right: 5%;
+        /* top: 15%; */
+        /* bottom: auto; */
+        /* right: 5%; */
         z-index: 102;
         margin-top: 30px;
     }
-    .LumberWrapper {
+    .LumberWrapperСont {
         height: auto;
         width: 70%;
         bottom: 0%;
     }
+
+    .LumberWrapper {
+        left: -26px;
+    }
 }
 @media screen and (max-width: 480px) {
-    .LumberWrapper {
+    .LumberWrapperСont {
         height: auto;
         width: 65%;
         bottom: 0%;

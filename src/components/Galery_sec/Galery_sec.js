@@ -17,56 +17,44 @@ const Galery_sec = () => {
     const [isgaler, setisgaler] = useState(false);
     const [curentphoto, setcurentphoto] = useState({
         id: 1,
-        url: "https://i.postimg.cc/18Qb1sKR/9.jpg"
+        url: "https://lumbeers.com/images/render16.jpg"
     });
     const images = [
         {
             id: 0,
-            url: "https://i.postimg.cc/18Qb1sKR/9.jpg"
+            url: "https://lumbeers.com/images/render16.jpg"
         },
         {
             id: 1,
-            url: "https://i.postimg.cc/18Qb1sKR/9.jpg"
+            url: "https://lumbeers.com/images/render21.jpg"
         },
         {
             id: 2,
-            url: "https://i.postimg.cc/18Qb1sKR/9.jpg"
+            url: "https://lumbeers.com/images/render23.jpg"
         },
         {
             id: 3,
-            url: "https://i.postimg.cc/18Qb1sKR/9.jpg"
+            url: "https://lumbeers.com/images/render25.jpg"
         },
         {
             id: 4,
-            url: "https://i.postimg.cc/18Qb1sKR/9.jpg"
+            url: "https://lumbeers.com/images/render26.jpg"
         },
         {
             id: 5,
-            url: "https://i.postimg.cc/18Qb1sKR/9.jpg"
+            url: "https://lumbeers.com/images/render27.jpg"
         },
         {
             id: 6,
-            url: "https://i.postimg.cc/18Qb1sKR/9.jpg"
+            url: "https://lumbeers.com/images/render28.jpg"
         },
         {
             id: 7,
-            url: "https://i.postimg.cc/18Qb1sKR/9.jpg"
+            url: "https://lumbeers.com/images/render30.jpg"
         },
         {
             id: 8,
-            url: "https://i.postimg.cc/18Qb1sKR/9.jpg"
-        },
-        {
-            id: 9,
-            url: "https://i.postimg.cc/18Qb1sKR/9.jpg"
-        },
-        {
-            id: 10,
-            url: "https://i.postimg.cc/18Qb1sKR/9.jpg"
-        },
-        {
-            id: 11,
-            url: "https://i.postimg.cc/18Qb1sKR/9.jpg"
+            url: "https://lumbeers.com/images/render33.jpg"
         }
     ];
     const items = [
@@ -75,10 +63,13 @@ const Galery_sec = () => {
         <img src={images[2].url} className="item" alt="" />,
         <img src={images[3].url} className="item" alt="" />,
         <img src={images[4].url} className="item" alt="" />,
-        <img src={images[5].url} className="item" alt="" />
+        <img src={images[5].url} className="item" alt="" />,
+        <img src={images[6].url} className="item" alt="" />,
+        <img src={images[7].url} className="item" alt="" />,
+        <img src={images[8].url} className="item" alt="" />
     ];
     let NIGHTS = items.map((m, key) =>
-        <div className="item_block" onClick={() => { setisgaler(true); setcurentphoto(images[key]); }} key={key}>
+        <div className="item_block2" onClick={() => { setisgaler(true); setcurentphoto(images[key]); }} key={key}>
             {m}
         </div>
     );
@@ -153,6 +144,7 @@ const Galery_sec = () => {
                 </div>
             }
             <div className='background_image_galarysec'></div>
+            <div className='background_image_galarysec_bacdropFilter'></div>
 
         </div>
 

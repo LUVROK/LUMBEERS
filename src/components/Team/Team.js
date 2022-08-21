@@ -14,26 +14,26 @@ const Team = () => {
                 <div className="team__container">
                     <div className="team__container__item">
                         <div className="profile_photo">
-                            <div className='Eugene'></div>
+                            <div className='Jimmy'></div>
                         </div>
                         <h2 className="team_card_Title">
-                            Kirill Storn
+                            Jimmy.meth 
                         </h2>
                     </div>
                     <div className="team__container__item">
                         <div className="profile_photo">
-                            <div className='Andrey'></div>
+                            <div className='ALPAN'></div>
                         </div>
                         <h2 className="team_card_Title">
-                            Andrey Blakil
+                            ALPAN
                         </h2>
                     </div>
                     <div className="team__container__item">
                         <div className="profile_photo">
-                            <div className='Nikita'></div>
+                            <div className='ROLL'></div>
                         </div>
                         <h2 className="team_card_Title">
-                            Alex B90
+                            ROLL
                         </h2>
                     </div>
                 </div>

@@ -2,7 +2,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: #696969;
+    background: rgb(49, 47, 94);
+    background: linear-gradient(2700deg, rgb(88, 84, 173) 0%, rgb(66, 141, 156) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +16,7 @@
     position: relative;
     transition: 0.8s;
     opacity: 1;
-    animation: mymove 1.5s infinite;
+    animation: mymove 2.4s infinite;
     opacity: 1;
 }
 .logo_center{
@@ -29,20 +30,52 @@
     /* animation: animationLogo 2s infinite linear; */
     /* transition: opacity 2s linear; */
     /* opacity: 0.3 animationLogo; */
-    animation: animationLogo 3s linear infinite;
+    animation: animationLogo 2.4s linear infinite;
     animation-fill-mode: forwards;
 }
+
+
+.blob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0, 0);
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    margin: 10px;
+    /* height: 20px; */
+    /* width: 20px; */
+    transform: scale(1);
+    animation: pulse-black 2.4s infinite;
+}
+@keyframes pulse-black {
+    0% {
+      transform: scale(0.85);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 70px rgba(0, 0, 0, 0);
+    }
+    
+    100% {
+      transform: scale(0.85);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+
 @keyframes animationLogo {
     100% {
-        transform: rotate(360deg);
+        /* transform: rotate(360deg); */
     }
 }
 
 @-webkit-keyframes mymove {
-    50% {opacity: 0.3;}
+    50% {opacity: 0.5;}
 }
 
 /* Стандартный синтаксис */
 @keyframes mymove {
-    50% {opacity: 0.3;}
+    50% {opacity: 0.5;}
 }

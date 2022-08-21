@@ -145,7 +145,7 @@
     order: 1;
   }
   .footer_block__right {
-    margin: 20px auto;
+    margin: 30px auto 10px auto;
     order: 0;
     text-align: center;
   }

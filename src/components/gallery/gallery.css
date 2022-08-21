@@ -8,10 +8,14 @@
     flex-wrap: wrap;
     /* text-transform: uppercase; */
     text-align: center;
+    z-index: 5999;
     /* position: relative; */
 }
 .colorNameNft {
-    color: #366e72;
+    color: #000000;
+    z-index: 5999;
+    filter: drop-shadow(0 0 0.1rem #2d24a0);
+
 }
 .galerbody_text {
     font-family: 'Raleway', sans-serif;
@@ -24,6 +28,8 @@
     position: relative;
     text-align: center;
     margin-left: 20%;
+    z-index: 5999;
+
     margin-right: 20%;
 }
 
@@ -46,7 +52,7 @@ img { pointer-events: none;
     cursor: pointer;
 }
 .galerbody{
-    z-index: 999;
+    z-index: 5999;
     padding: 0px 0;
     position: relative;
     width: 100%;
@@ -69,9 +75,13 @@ img { pointer-events: none;
     padding-top: 110px;
     padding-bottom: 110px;
     width: 1500px;
+    z-index: 5999;
 }
 .alice-carousel__stage-item{
     transition: 0.4s;
+}
+.alice-carousel {
+    z-index: 5999;
 }
 .reverse{
     transform:rotate(180deg);
@@ -172,6 +182,31 @@ img { pointer-events: none;
     position: relative;
     top: -20px;
 }
+.background_image_galary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 100%;
+    background-image: url("../../images/secBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(12px); */
+
+    background-color: #FFFFFF;
+    /* background-size: cover !important; */
+    z-index: 999;
+}
+.background_image_galary_bacdropFilter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+    z-index: 1099;
+
+}
 @media (max-width: 980px) {
     .cust_galer_container{
         width: 640px;
@@ -230,6 +265,8 @@ padding: 20px;
     bottom: 0;
     width: 100%;
     opacity: 0.7;
+    z-index: 5999;
+
 }
 .galleryForsetTransparent img {
     position: absolute;

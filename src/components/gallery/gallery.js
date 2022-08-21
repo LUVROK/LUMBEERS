@@ -19,44 +19,44 @@ const Gallery = () => {
     const [isgaler, setisgaler] = useState(false);
     const [curentphoto, setcurentphoto] = useState({
         id: 1,
-        url: "https://i.postimg.cc/K33CxYVj/2.jpg"
+        url: "https://lumbeers.com/images/render24.jpg"
     });
     let images = [
         {
             "id": 0,
-            "url": 'https://i.postimg.cc/0bmh4bDH/1.jpg'
+            "url": "https://lumbeers.com/images/render24.jpg"
         },
         {
             "id": 1,
-            "url": 'https://i.postimg.cc/K33CxYVj/2.jpg'
+            "url": "https://lumbeers.com/images/render29.jpg"
         },
         {
             "id": 2,
-            "url": 'https://i.postimg.cc/dkpSHY1Y/3.jpg'
+            "url": 'https://lumbeers.com/images/render31.jpg'
         },
         {
             "id": 3,
-            "url": 'https://i.postimg.cc/Y42VjRVJ/4.jpg'
+            "url": 'https://lumbeers.com/images/render32.jpg'
         },
         {
             "id": 4,
-            "url": 'https://i.postimg.cc/YvzZpZX6/5.jpg'
+            "url": 'https://lumbeers.com/images/render35.jpg'
         },
         {
             "id": 5,
-            "url": 'https://i.postimg.cc/c6PVTQgn/6.jpg'
+            "url": 'https://lumbeers.com/images/render38.jpg'
         },
         {
             "id": 6,
-            "url": 'https://i.postimg.cc/d7WfCdcD/7.jpg'
+            "url": 'https://lumbeers.com/images/render39.jpg'
         },
         {
             "id": 7,
-            "url": 'https://i.postimg.cc/rzDBShmT/8.jpg'
+            "url": 'https://lumbeers.com/images/render41.jpg'
         },
         {
             "id": 8,
-            "url": 'https://i.postimg.cc/18Qb1sKR/9.jpg'
+            "url": 'https://lumbeers.com/images/render44.jpg'
         },
     ]
     const changegalephoto = (arg) => {
@@ -124,10 +124,10 @@ const Gallery = () => {
     const renderPrevButton = () => {
         if (!isgaler) {
             return <div className="galer_prev">
-            <svg width="34" height="34" viewBox="0 0 49 54" fill="none" xmlns="http://www.w3.org/2000/svg" className="arrow_galer inside reverse">
-                <path d="M45.25 21.3708C49.5833 23.8727 49.5833 30.1273 45.25 32.6292L10.75 52.5478C6.41666 55.0496 1 51.9223 1 46.9186L1 7.08141C1 2.07771 6.41666 -1.0496 10.75 1.45225L45.25 21.3708Z" fill="#FFFFFF"  />
-            </svg>
-        </div>;
+                <svg width="34" height="34" viewBox="0 0 49 54" fill="none" xmlns="http://www.w3.org/2000/svg" className="arrow_galer inside reverse">
+                    <path d="M45.25 21.3708C49.5833 23.8727 49.5833 30.1273 45.25 32.6292L10.75 52.5478C6.41666 55.0496 1 51.9223 1 46.9186L1 7.08141C1 2.07771 6.41666 -1.0496 10.75 1.45225L45.25 21.3708Z" fill="#FFFFFF" />
+                </svg>
+            </div>;
         } else {
             return <div></div>
         }
@@ -147,15 +147,15 @@ const Gallery = () => {
     return (
         <div className="galerbody">
             <div className='galerbody_title'>
-                Welcome to&nbsp;<span className='colorNameNft'>Lumbeers</span>
+                <div style={{ zIndex: 5999 }}>Welcome to&nbsp;<span className='colorNameNft'>Lumbeers</span></div>
             </div>
-            <div className='galleryForsetTransparent'>
+            {/* <div className='galleryForsetTransparent'>
                 <img src={transparentdorset} alt="" className='galleryForsetTransparent_image' />
-            </div>
+            </div> */}
             <div className='galerbody_text'>
                 <span className='colorNameNft'>Lumbeers</span>&nbsp;is a collection of 10.000 exceptionally detailed creatures.
                 <br /><br />Their origin is so secret, that even&nbsp;<span className='colorNameNft'>Lumbeers</span>&nbsp;forgot where they come from. It is said that their land is an oasis filled with various forms of life.
-                <br /><br />At a first glance, they seem like cute and intelligent creatures, and in fact, they are! You thought we would say the opposite, didn't you?
+                <br /><br /><div style={{ color: '#FFFFFF93' }}>At a first glance, they seem like cute and intelligent creatures, and in fact, they are! You thought we would say the opposite, didn't you?</div>
             </div>
             <div className="galerbody_container_MAIN">
                 <AliceCarousel
@@ -202,6 +202,9 @@ const Gallery = () => {
                     </div>
                 </div>}
             </div>
+
+            <div className='background_image_galary'></div>
+            <div className='background_image_galary_bacdropFilter'></div>
         </div>
     )
 };

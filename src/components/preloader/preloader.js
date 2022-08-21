@@ -13,7 +13,7 @@ const Preloader = () => {
         <div className="preloader">
             <div className="logoPreolder" id="preloader">
                 {/* LUMBEERS */}
-                <img src={imageLogoPreolder} alt className="imageLogoPreolder" />
+                <img src={imageLogoPreolder} alt="" className="imageLogoPreolder blob"  />
             </div>
         </div>
     )
