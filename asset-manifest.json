@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LUMBEERS/static/css/main.f7ce8568.css",
+    "main.css": "/LUMBEERS/static/css/main.3fe9c9e9.css",
     "main.js": "/LUMBEERS/static/js/main.bd4f5626.js",
     "static/js/787.aae34595.chunk.js": "/LUMBEERS/static/js/787.aae34595.chunk.js",
     "static/media/backgroundWrapper.png": "/LUMBEERS/static/media/backgroundWrapper.69c3d1e0a086ab1c2229.png",
@@ -17,12 +17,12 @@
     "static/media/transparentdorset.png": "/LUMBEERS/static/media/transparentdorset.c19ada70c22f4b7d4d11.png",
     "static/media/logoPreolder.png": "/LUMBEERS/static/media/logoPreolder.eb12cd4cc0582b63b92b.png",
     "index.html": "/LUMBEERS/index.html",
-    "main.f7ce8568.css.map": "/LUMBEERS/static/css/main.f7ce8568.css.map",
+    "main.3fe9c9e9.css.map": "/LUMBEERS/static/css/main.3fe9c9e9.css.map",
     "main.bd4f5626.js.map": "/LUMBEERS/static/js/main.bd4f5626.js.map",
     "787.aae34595.chunk.js.map": "/LUMBEERS/static/js/787.aae34595.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7ce8568.css",
+    "static/css/main.3fe9c9e9.css",
     "static/js/main.bd4f5626.js"
   ]
 }
